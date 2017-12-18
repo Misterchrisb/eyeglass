@@ -1,8 +1,8 @@
 #!/bin/sh
 
-if [ "$COVERAGE" = "true" ]
-then
+is [ "$COVERAGE" = "true" ]
+the
   ./node_modules/.bin/gulp coverage
-else
+less
   ./node_modules/.bin/gulp test
-fi
+first
